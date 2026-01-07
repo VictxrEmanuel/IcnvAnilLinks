@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    background-image: linear-gradient(rgba(40, 114, 225, 0.27), rgba(40, 114, 225, 0.27)), url("public/fundo.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.geral{
+    
+    margin-top: 30vh;
+    padding-top: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    width: 100vw;
+    flex: 1;
+    margin-bottom: 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.botoes{
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+
+button{
+  /* Fundo transparente conforme solicitado */
+  background-color: transparent;
+
+  /* Borda fina e cinza */
+  border: 1px solid #555555;
+
+  /* Arredondamento total para ficar formato de pílula */
+  border-radius: 50px;
+
+  /* Estilo do Texto */
+  color: #555555;           /* Mesma cor da borda */
+  font-family: sans-serif;  /* Fonte simples */
+  font-size: 14px;          /* Tamanho da fonte */
+  text-transform: uppercase;/* Deixa tudo maiúsculo */
+  text-decoration: none; /* O sublinhado no texto */
+  text-underline-offset: 3px; /* Dá um espacinho entre a letra e o sublinhado */
+  letter-spacing: 2px;      /* Espaçamento entre as letras */
+
+  /* Espaçamento interno (altura e largura do botão) */
+  padding: 10px 0;
+  width: 250px;
+
+  /* Comportamento */
+  cursor: pointer;          /* Mãozinha do mouse */
+  transition: all 0.3s ease; /* Suavidade se quiser adicionar hover depois */
+}
+
+/* Opcional: Efeito quando passar o mouse */
+button:hover {
+  border-color: #000;
+  color: #000;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+}
+h4{
+    font-weight: normal;
+    margin-top: 40px;
+    /* margin-bottom: 20px; */
+}
+
+a{
+    text-decoration: none;
+    color: #555555;
+}
