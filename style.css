@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 body{
     background-image: linear-gradient(rgba(40, 114, 225, 0.27), rgba(40, 114, 225, 0.27)), url("public/fundo.png");
+    background-repeat: no-repeat;  /* 1. Impede a imagem de repetir/dobrar */
+    background-size: cover;        /* 2. Estica a imagem para cobrir a tela toda */
+    background-position: center;   /* 3. Mantém o foco no meio da imagem */
     display: flex;
     flex-direction: column;
     justify-content: center;
